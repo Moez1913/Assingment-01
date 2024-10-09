@@ -1,7 +1,7 @@
 *{
   font-family: "Azeret Mono", monospace;
   font-optical-sizing: auto;
-  font-weight: <weight>;
+  font-weight: weight;
   font-style: normal;
 
 }
@@ -98,4 +98,48 @@ a{
     border: 2px solid #0D1321 ;
     width: 140px;
     height: 40px;
+}
+
+
+/*my inspiration section*/
+
+.inspiration{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 0px auto 40px auto;
+}
+
+
+/* I need Support section*/
+.support{
+    background-image: url(/assets/handshake.jpg);
+    background-repeat: no-repeat;
+    background-position: 40%;
+    width: 900px;
+    height: 300px;
+    margin: 0px auto 0px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.input{
+    height: 40px;
+    width: 450px;
+    border: none;
+    
+}
+.input2{
+    height: 40px;
+    width: 100px;
+    color: #0D1321;
+    border: none;
+}
+
+.title{
+    text-align: center;
+    width: 650px;
+    height: 150px;
 }
