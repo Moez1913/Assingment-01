@@ -10,6 +10,7 @@
 
 .hero{
     background-image: url(../assets/Hero-bg.png);
+    
    
   
 }
@@ -35,10 +36,66 @@
     color: #0D1321;
 }
 
-.bannner_button{
+.baner_button{
     color: white;
     background-color: #0D1321;
     height: 50px;
     width: 180px;
     border: none;
+}
+
+.baner_button a{
+    text-decoration: none;
+    color: white;
+}
+
+/* Why web development section*/
+
+.why{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 900px;
+    height: 1200px;
+    
+   
+    margin: 70px auto 0px  auto;
+    
+}
+
+a{
+    text-decoration: none;
+    color: #0D1321;
+}
+
+.common_style{
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+    
+}
+
+.common_style img{
+    height: 200px;
+    width: 200px;
+}
+
+.text{
+    height: 200px;
+}
+
+.heading{
+    
+    color: #0D1321;
+}
+
+.why p{
+    font-weight: lighter;
+    font-size: smaller;
+}
+
+.why button{
+    border: 2px solid #0D1321 ;
+    width: 140px;
+    height: 40px;
 }
