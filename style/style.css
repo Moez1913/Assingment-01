@@ -42,11 +42,13 @@
     height: 50px;
     width: 180px;
     border: none;
+    border-radius: 5px;
 }
 
 .baner_button a{
     text-decoration: none;
     color: white;
+    
 }
 
 /* Why web development section*/
@@ -56,7 +58,7 @@
     flex-direction: column;
     align-items: center;
     width: 900px;
-    height: 1200px;
+    height: 1000px;
     
    
     margin: 70px auto 0px  auto;
@@ -129,6 +131,7 @@ a{
     height: 40px;
     width: 450px;
     border: none;
+    border-radius: 5px;
     
 }
 .input2{
@@ -136,10 +139,23 @@ a{
     width: 100px;
     color: #0D1321;
     border: none;
+    border-radius: 5px;
 }
 
 .title{
+    color: #5c5b5b;
     text-align: center;
+    margin-top: 50px;
     width: 650px;
     height: 150px;
+}
+
+
+/* footer part styls*/
+
+.footer{
+    margin: 100px auto 40px auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
