@@ -58,7 +58,7 @@
     flex-direction: column;
     align-items: center;
     width: 900px;
-    height: 1000px;
+    height: 900px;
     
    
     margin: 70px auto 0px  auto;
@@ -105,14 +105,69 @@ a{
 
 /*my inspiration section*/
 
-.inspiration{
-    display: flex;
+.inspiration{display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
     margin: 0px auto 40px auto;
 }
 
+/* My current target sections css */
+
+.current_target{
+    
+    height: 400px;
+    width: 900px;
+    margin: 140px auto 140px auto;
+    
+}
+
+.target_card h3{
+    font-size: medium;
+    font-weight: bold;
+}
+ .target_card p{
+    font-size:xx-small;
+    font-weight:lighter;
+ }
+
+ .target_card a{
+    text-decoration: underline solid #0D1321;
+    font-size: xx-small;
+ }
+
+.target_card{
+    margin-top: 40px;
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    gap: 15px;
+
+}
+.card_common{
+    width: 300px;
+    height: 200px;
+    margin: auto;
+    padding: 10px;
+
+}
+.card1{
+    background-color: #EBEBEB;
+   
+}
+.card2{
+    background-color: #c5d6f8;
+    opacity: 100%;
+
+}
+.card3{
+    background-color:#fff4ac;
+}
+
+.target_description{
+    text-align: center;
+
+}
 
 /* I need Support section*/
 .support{
