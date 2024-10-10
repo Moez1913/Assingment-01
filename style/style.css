@@ -116,8 +116,7 @@ a{
 
 /* I need Support section*/
 .support{
-    background-image: url(../assets/handshake.jpg);
-    background-repeat: no-repeat;
+    background-image: url("../assets/handshake.jpg")
     background-position: 40%;
     width: 900px;
     height: 300px;
